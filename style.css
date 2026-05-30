@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+img {
+   width: 100%;
+    height: auto;
+    line-height: 0;
+    display: block;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+.gallery {
+display: flex;
+overflow-x: auto;
+max-width: 600px;
+  scrollbar-width: none;
+
+
+}
+
+.image {
+width: 300px;
+height: 200px;
+object-fit: cover;
+margin-right: 20px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.svg{
+    width: 20px;
+    height: 20px;
+   
+}
+
+#boxes {
+    display: flex;
+}
